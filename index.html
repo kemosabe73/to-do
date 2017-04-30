@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" style="margin-top: 3%;">
+        <div class="col-md-4">
+        <input type="text" id="todo" class="form-control" placeholder="What to do?" onkeypress="enterTodo(event)">
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-primary" id="btn_add" onclick="addTodo()">Add</button>
+      </div>
+    </div>
+      <div class="row" id="todos">
+      </div>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="index.js"></script>
+  </body>
+</html>

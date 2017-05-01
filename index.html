@@ -6,15 +6,16 @@
   <body>
     <div class="container">
       <div class="row" style="margin-top: 3%;">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
         <input type="text" id="todo" class="form-control" placeholder="What to do?" onkeypress="enterTodo(event)">
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-3">
           <button class="btn btn-primary" id="btn_add" onclick="addTodo()">Add</button>
       </div>
     </div>
       <div class="row" id="todos">
       </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="index.js"></script>
   </body>
